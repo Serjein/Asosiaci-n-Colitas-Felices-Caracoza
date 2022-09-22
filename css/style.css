@@ -1,6 +1,6 @@
 body {
     width: 100vw;
-    height: 99vh;
+    height: 98vh;
 }
 /* inicia header */
 #header {
@@ -93,8 +93,8 @@ a{
 }
 
 .redes-sociales{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-top: 5px;
 }
 
@@ -120,6 +120,83 @@ a{
      margin-top: 20px;
      margin-left: 80px;
  }
+/* inicia pagina donativos */
+
+.h2-main{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.texto-donativos{
+    font-size: 20px;
+    color: rgb(8, 28, 159);
+    margin-left: 20px;  
+}
+
+.h3-deposito {
+    color: rgb(248, 52, 3);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+}
+
+#texto-deposito {
+    color:#000;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+#numero-deposito {
+    
+    color: rgb(23, 7, 252);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+
+#texto-deposito2 {
+     color:#000;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 200px;
+}
+
+#texto-deposito3 {
+    color:#000;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+#numero-deposito2 {
+     color: rgb(23, 7, 252);
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 250px;
+}
+#img-deposito {
+    width: 430px;
+    height: 430px;
+    margin-top: 30px;
+}
+
+/* inicia pagína Contacto */
+
+#form{
+    margin-left: 50px;
+}
+#comentario{
+    margin-top: 50px;
+}
+.acuerdo{
+    margin-bottom: 20px;
+}
+.mapa{
+    margin-top: 40px;
+}
 
 /* inicia media query */
 
@@ -177,7 +254,7 @@ a{
         margin-left: 10px;
     }
 
-    /* inicia media quienes somos */
+    /* inicia media 1200 quienes somos */
     
 .h2-main{
     font-size: 35px !important;
@@ -198,6 +275,66 @@ a{
      height: 500px;
      margin-top: 80px !important;
    }
+
+   /* inicia media 1200 query donativos */
+
+   .h2-main{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.texto-donativos{
+    font-size: 30px;
+   margin-bottom: 50px;
+    margin-left: 30px;  
+}
+
+.h3-deposito {
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+#texto-deposito {
+   
+    font-size: 23px;
+    font-weight: 900;
+    margin-left: 390px;
+}
+
+#numero-deposito {
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 330px;
+}
+
+#texto-deposito2 {
+     font-size: 23px;
+    font-weight: 900;
+    margin-left: 250px;
+}
+
+#texto-deposito3 {
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#numero-deposito2 {
+     font-size: 23px;
+    font-weight: 700;
+    margin-left: 330px;
+}
+#img-deposito {
+    width: 375px;
+    height: 400px;
+    margin-top: 100px;
+}
+
 }
 
     /* media 992px */
@@ -249,7 +386,7 @@ a{
         height: 35px;
         margin-top: 10px;
     }
-       /* inicia media quienes somos */
+       /* inicia media 992 quienes somos */
     
        .h2-main{
         font-size: 35px !important;
@@ -270,9 +407,68 @@ a{
          height: 500px;
          margin-top: 80px !important;
        }
+/* inicia media 992 query donativos */
+       .h2-main{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    
+    .texto-donativos{
+        font-size: 29px;
+        margin-bottom: 90px;
+        margin-left: 30px;  
+    }
+    
+    .h3-deposito {
+        font-size: 29px !important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    
+    #texto-deposito {
+        font-size: 28px;
+        font-weight: 900;
+        margin-left: 390px;
+    }
+    
+    #numero-deposito {
+        font-size: 28px;
+        font-weight: 700;
+        margin-left: 330px;
+    }
+    
+    #texto-deposito2 {
+        font-size: 28px;
+        font-weight: 900;
+        margin-left: 250px;
+    }
+    
+    #texto-deposito3 {
+        font-size: 28px;
+        font-weight: 900;
+        text-align: center;
+        margin-left: 30px;
+    }
+    
+    #numero-deposito2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-left: 330px;
+    }
+    #img-deposito {
+        width: 600px;
+        height: 500px;
+        margin-top: 150px;
+    }
+/* inicia media 768 contacto */
+#form{
+    margin-left: 20px;
+    }
 }
     
- /* media 768px  */
+ /* inicia media 768px  */
 @media (max-width: 768px) {
     #img-logo {
         width: 80px;
@@ -326,7 +522,7 @@ a{
         margin-top: 10px;
     }
 
-      /* inicia media quienes somos */
+      /* inicia media 768 quienes somos */
     
       .h2-main{
         font-size: 25px !important;
@@ -348,65 +544,85 @@ a{
          width: 450px;
          height: 350px;
          margin-top: 90px;
-         /* margin-left: 150px; */
-     }
-}
-
-/* @media (max-width: 768px) and (orientation: landscape) {
-
-    #img-logo {
-        width: 80px;
-        height: 80px;
-        margin-top: 40px;
     }
 
-    #titulo {
-        margin-top: 32px; 
-        margin-left: 50px;
-        font-size: 35px !important;
-        text-align: center;
-    }
-
-    #button {
-        margin-top: 50px !important;
-        margin-left: 70px;
-    }
-
-    #menu {
-        position: absolute;
-        text-align: center;
-        font-size: 20px;
-        margin-left: 0px;
-        z-index: 7;
-        margin-top: 10px !important;
+     /* inicia media 768 query donativos */
+     
+     .h2-main{
+        font-size: 29px !important;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
     }
     
-    .texto-quienes-somos {
-        font-size: 20px !important;
+    .texto-donativos{
+        font-size: 28px;
+        margin-bottom: 90px;
+        margin-left: 30px;  
+    }
+    
+    .h3-deposito{
+        font-size: 29px !important;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    
+    #texto-deposito {
+        font-size: 25px;
+        font-weight: 900;
+        margin-left: 320px;
+    }
+    
+    #numero-deposito {
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 260px;
+    }
+    
+    #texto-deposito2 {
+        font-size: 25px;
+        font-weight: 900;
+        margin-left: 150px;
+    }
+    
+    #texto-deposito3 {
+        font-size: 25px;
+        font-weight: 900;
         text-align: center;
-        margin-left: 1px;
+        margin-left: 30px;
+    }
+    
+    #numero-deposito2 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 260px;
+    }
+    #img-deposito {
+        width: 600px;
+        height: 500px;
+        margin-top: 150px;
+    }
+/* inicia media 768 contacto */
+    #form{
+ margin-left: 30px;
     }
 
-    .img-sect-main {
-        width: 180px !important;
-        height: 150px !important;
-        margin-top: 10px;
+    .texto-formulario{
+font-size: 20px;
     }
-
-   .img-art{
-        width: 280px !important;
-        height: 130px !important;
-        margin-left: 0;
-        margin-right: 5px;
-        margin-bottom: 10px;
+    #comentario{
+        margin-top: 50px;
     }
-
-    .redes-sociales {
-        width: 30px;
-        height: 30px;
-        margin-top: 10px;
+    .acuerdo{
+        margin-bottom: 20px;
     }
-} */
+    .mapa{
+        margin-top: 40px;
+    }
+}
    
 
 /* media 576px */
@@ -462,7 +678,7 @@ a{
         margin-bottom: 10px;
         padding: 0 !important;
     }
-    /* inicia media quienes somos */
+    /* inicia media 576 quienes somos */
     
 .h2-main{
     font-size: 25px !important;
@@ -485,74 +701,86 @@ a{
      margin-top: 50px !important;
      margin-left: 40px;
  }
-}
-/* @media (max-width: 576px) and (orientation: landscape) {
 
-    #img-logo {
-        width: 80px;
-        height: 80px;
-        margin-top: 40px;
-    }
-
-    #titulo {
-        margin-top: 32px; 
-        margin-left: 50px;
-        font-size: 35px !important;
-        text-align: center;
-    }
-
-    #button {
-        margin-top: 30px !important;
-        margin-left: 70px;
-    }
-
-    #menu {
-        position: absolute;
-        text-align: center;
-        font-size: 20px;
-        margin-left: 0px;
-        z-index: 7;
-        margin-top: 10px !important;
-    }
-    
-    /* /* carousel  
-.carousel-inner {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 200px;
+  /* inicia media 576 query donativos */
+     
+  .h2-main{
+    font-size: 29px !important;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
 }
 
-/* /* imagenes carousel  
-.d-block {
-    height: 200px;
+.texto-donativos{
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-left: 30px;  
 }
 
-.texto {
-        font-size: 18px !important;
-        text-align: center;
-        margin-left: 1px;
-    }
+.h3-deposito{
+    font-size: 28px !important;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
 
-    .img-sect-main {
-        width: 180px !important;
-        height: 100px !important;
-        margin-top: 10px;
-    }
+#texto-deposito {
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 210px;
+}
 
-   .img-art{
-        width: 280px !important;
-        height: 100px !important;
-        margin-left: 0;
-        margin-right: 5px;
-        margin-bottom: 10px;
-    }
+#numero-deposito {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 140px;
+}
 
-    .redes-sociales {
-        width: 20px;
-        height: 20px;
-        margin-top: 10px;
-    }
-} */
+#texto-deposito2 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#texto-deposito3 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 0px;
+}
+
+#numero-deposito2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 140px;
+}
+#img-deposito {
+    width: 550px;
+    height: 500px;
+    margin-top: 100px;
+}
+/* inicia pagína Contacto */
+
+#form{
+    margin-left: 10px;
+}
+#comentario{
+    margin-top: 50px;
+}
+.acuerdo{
+    margin-bottom: 20px;
+}
+.mapa{
+    margin-top: 10px;
+}
+.mapa-contacto{
+    width: 500px;
+}
+}
 
 /* media 360px */
 @media (max-width: 360px)  {
@@ -610,7 +838,7 @@ a{
         margin-top: 10px;
     }
 
-    /* inicia media quienes somos */
+    /* inicia media 360 quienes somos */
     
 .h2-main{
     font-size: 25px !important;
@@ -633,6 +861,78 @@ a{
      margin-top: 50px !important;
      margin-left: 20px;
  }
+
+ /* inicia media 360 query donativos */
+     
+.texto-donativos{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-left: 10px;  
+}
+
+.h3-deposito{
+    font-size: 24px !important;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+#texto-deposito {
+    font-size: 23px;
+    font-weight: 900;
+    margin-left: 85px;
+}
+
+#numero-deposito {
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+#texto-deposito2 {
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#texto-deposito3 {
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 0px;
+}
+
+#numero-deposito2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+#img-deposito {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+}
+/* inicia pagína 360 Contacto */
+
+#form{
+    margin-left: 10px;
+}
+#comentario{
+    margin-top: 50px;
+}
+.acuerdo{
+    margin-bottom: 20px;
+}
+.mapa{
+    margin-top: 10px;
+}
+.mapa-contacto{
+    width: 260px;
+}
+
 }
 
 /* media 320px */
@@ -665,5 +965,22 @@ a{
         margin-top: 50px !important;
         margin-left: 20px;
     }
+    /* inicia pagína 320 Contacto */
+
+#form{
+    margin-left: 10px;
+}
+#comentario{
+    margin-top: 50px;
+}
+.acuerdo{
+    margin-bottom: 20px;
+}
+.mapa{
+    margin-top: 10px;
+}
+.mapa-contacto{
+    width: 250px;
+}
 
 }
