@@ -1,0 +1,633 @@
+body {
+    width: 100vw;
+    height: 99vh;
+}
+/* inicia header */
+#header {
+    height: 15vh;
+}
+
+#header {
+    background: linear-gradient(180deg, #007991, #63d1b0);
+}
+
+#img-logo {
+    margin-top: 15px !important;
+width: 70px !important;
+    height: 70px !important;
+}
+
+#titulo {
+    font-size: 28px !important;
+    margin-top: 15px;
+    color: white !important;
+}
+
+.nav-item:hover {
+    background: rgba(228, 116, 239, 0.3);
+    box-shadow: 0 1px 20px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#menu {
+    font-size: 15PX !important;
+    margin-top: 30px !important;
+    margin-left: 100px !important;
+}
+
+a{
+    color: #4b044d !important;
+}
+
+/* inicia main */
+#main {
+    height: 80vh;
+}
+
+/* carousel */
+.carousel-inner {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 270px;
+}
+
+/* imagenes carousel */
+.d-block {
+    height: 270px;
+}
+.texto{
+    font-size: 20px !important;
+    color: rgb(8, 28, 159);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.img-sect-main {
+    width: 300px !important;
+    height: 240px !important;
+    margin-top: 40px;
+}
+
+.article {
+    background: linear-gradient(292deg, rgba(7, 104, 247, 0.5689873361453957) 4%, rgba(196, 7, 247, 0.6502198291425945) 8%, rgba(236, 242, 79, 0.7930769719997374) 31%, rgba(231, 107, 107, 0.9079229103750875) 46%, rgba(30, 225, 240, 0.9051217899269083) 55%, rgba(122, 240, 98, 0.7706680084143032) 69%, rgba(220, 30, 240, 0.6502198291425945) 94%, rgba(240, 30, 30, 0.5913962997308299) 97%);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.img-art{
+    width: 300px !important;
+    height: 229px !important;
+    margin-bottom: 10px;
+}
+
+/* inicia footer */
+#footer {
+    height: 5vh;
+    background: linear-gradient(180deg, #007991, #63d1b0);
+    margin-top: 20px;
+}
+
+.redes-sociales{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+/* inicia pagína quienes somos */
+
+.h2-main{
+    color: #610C63;
+    margin-top: 10px;
+ }
+ .texto-qs{
+     font-size: 15px;
+     color: rgb(8, 28, 159);
+     margin-top: 20px;
+     margin-left: 0px;
+ }
+ 
+ .li-quienes-s{
+    font-size: 15px;
+ }
+ .video-qs {
+     width: 400px;
+     height: 400px;
+     margin-top: 20px;
+     margin-left: 80px;
+ }
+
+/* inicia media query */
+
+/* media 1200px */
+
+@media (max-width: 1200px) {
+    #img-logo {
+        width: 100px !important;
+        height: 90px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    #titulo {
+        margin-top: 29px !important;
+        margin-left: 0px;
+        font-size: 24px !important;
+        text-align: center;
+    }
+    
+    #menu {
+        position: absolute;
+        text-align: center;
+        font-size: 17px !important;
+        margin-top: 200px !important;
+        margin-left: 100px !important;
+    }
+    
+    .texto {
+        font-size: 30px !important;
+        margin-left: 29px;
+    }
+    
+    .img-sect-main {
+        width: 300px !important;
+        height: 300px !important;
+        margin-top: 10px;
+    }
+    
+    h5{
+        font-size: 30px;
+        color: #610C63;
+    }
+    .img-art{
+        width: 35   0px !important;
+        height: 336px !important;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .redes-sociales {
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /* inicia media quienes somos */
+    
+.h2-main{
+    font-size: 25px !important;
+    color: #610C63;
+    margin-top: 10px;
+ }
+ .texto-qs{
+     font-size: 20px;
+     color: rgb(8, 28, 159);
+     margin-top: 20px;
+     margin-left: 0px;
+ }
+ .li-quienes-s{
+    font-size: 20px;
+ }
+ .video-qs {
+     width: 400px;
+     height: 400px;
+     margin-top: 50px !important;
+     margin-left: 40px;
+ }
+}
+    /* media 992px */
+    @media (max-width: 992px) { 
+        
+        #img-logo {
+        width: 90px;
+        height: 90px;
+        margin-top: 33px !important;
+    }
+    
+    #titulo {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 22px;
+        margin-left: 10px;
+    }
+    
+    #menu {
+        position: absolute;
+        text-align: center;
+        font-size: 16px !important;
+        margin-top: 190px !important;
+        margin-left: 0px !important;
+        z-index: 7;
+    }
+    
+    .texto {
+        font-size: 22px !important;
+        text-align: center !important;
+        margin-left: 1px;
+    }
+    
+    .img-sect-main {
+        width: 190px !important;
+        height: 190px !important;
+        margin-top: 10px;
+    }
+    
+    .img-art{
+        width: 300px !important;
+        height: 237px !important;
+        margin-left: 0;
+        margin-right: 10px !important;
+        margin-bottom: 10px;
+    }
+    .redes-sociales {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+       /* inicia media quienes somos */
+    
+.h2-main{
+    font-size: 25px !important;
+    color: #610C63;
+    margin-top: 10px;
+ }
+ /* .texto-qs{
+     font-size: 20px;
+     color: rgb(8, 28, 159);
+     margin-top: 20px;
+     margin-left: 0px;
+ } */
+ 
+ .video-qs {
+     width: 400px;
+     height: 350px;
+     margin-top: 100px;
+     margin-left: 30px;
+ }
+}
+    
+ /* media 768px  */
+@media (max-width: 768px) {
+    #img-logo {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    #titulo {
+        margin-top: 32px; 
+        margin-left: 50px;
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    #button {
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+
+    #menu {
+        position: absolute;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 0px;
+        z-index: 7;
+        margin-top: 10px !important;
+    }
+    
+    .texto-quienes-somos {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .img-sect-main {
+        width: 180px !important;
+        height: 180px !important;
+        margin-top: 10px;
+    }
+
+   .img-art{
+        width: 260px !important;
+        height: 184px !important;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .redes-sociales {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+      /* inicia media quienes somos */
+    
+      .h2-main{
+        font-size: 25px !important;
+        color: #610C63;
+        margin-top: 20px;
+     }
+     .texto-quienes-somos{
+        text-align: left !important; 
+     }
+     .texto-qs{
+         font-size: 18px;
+         color: rgb(8, 28, 159);
+         text-align: left !important;
+         margin-top: 20px;
+         margin-left: 0px;
+     }
+     
+     .video-qs {
+         width: 400px;
+         height: 350px;
+         margin-top: 100px;
+         margin-left: 150px;
+     }
+}
+
+/* @media (max-width: 768px) and (orientation: landscape) {
+
+    #img-logo {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    #titulo {
+        margin-top: 32px; 
+        margin-left: 50px;
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    #button {
+        margin-top: 50px !important;
+        margin-left: 70px;
+    }
+
+    #menu {
+        position: absolute;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 0px;
+        z-index: 7;
+        margin-top: 10px !important;
+    }
+    
+    .texto-quienes-somos {
+        font-size: 20px !important;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .img-sect-main {
+        width: 180px !important;
+        height: 150px !important;
+        margin-top: 10px;
+    }
+
+   .img-art{
+        width: 280px !important;
+        height: 130px !important;
+        margin-left: 0;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .redes-sociales {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+} */
+   
+
+/* media 576px */
+@media (max-width: 576px) and (orientation: portrait) {
+
+    #img-logo {
+        margin-top: 40px;
+    }
+
+    #titulo {
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #button {
+        margin-top: 65px;
+        margin-left: 19px;
+    }
+
+    #menu {
+        font-size: 18px;
+        position: absolute;
+        text-align: center;
+        margin-top: 17px;
+        margin-left: 0;
+        z-index: 7;
+    }
+    .carousel-inner {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 280px;
+    }
+
+    .img-sect-main {
+        width: 200px !important;
+        height: 200px !important;
+        margin-top: 10px;
+    }
+
+    .texto-quienes-somos {
+        font-size: 19px;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .img-art {
+        width: 250px !important;
+        height: 161px !important;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 0 !important;
+    }
+    /* inicia media quienes somos */
+    
+.h2-main{
+    font-size: 25px !important;
+    color: #610C63;
+    margin-top: 10px;
+ }
+ .texto-qs{
+     font-size: 20px;
+     color: rgb(8, 28, 159);
+     margin-top: 20px;
+     margin-left: 0px;
+ }
+ .li-quienes-s{
+    font-size: 25px;
+ }
+ .video-qs {
+     width: 400px;
+     height: 400px;
+     margin-top: 50px !important;
+     margin-left: 40px;
+ }
+}
+/* @media (max-width: 576px) and (orientation: landscape) {
+
+    #img-logo {
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    #titulo {
+        margin-top: 32px; 
+        margin-left: 50px;
+        font-size: 35px !important;
+        text-align: center;
+    }
+
+    #button {
+        margin-top: 30px !important;
+        margin-left: 70px;
+    }
+
+    #menu {
+        position: absolute;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 0px;
+        z-index: 7;
+        margin-top: 10px !important;
+    }
+    
+    /* /* carousel  
+.carousel-inner {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 200px;
+}
+
+/* /* imagenes carousel  
+.d-block {
+    height: 200px;
+}
+
+.texto {
+        font-size: 18px !important;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .img-sect-main {
+        width: 180px !important;
+        height: 100px !important;
+        margin-top: 10px;
+    }
+
+   .img-art{
+        width: 280px !important;
+        height: 100px !important;
+        margin-left: 0;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .redes-sociales {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+} */
+
+/* media 360px */
+@media (max-width: 360px)  {
+    #img-logo {
+        width: 40px !important;
+        height: 40px !important;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    #titulo {
+        margin-top: 50px;
+        margin-left: 8px !important;
+        font-size: 20px !important;
+    }
+
+    #button {
+        margin-top: 80px;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    #menu {
+        font-size: 10px !important;
+        margin-left: 0 !important;
+    }
+
+        .texto {
+        font-size: 19px !important;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .img-sect-main {
+        width: 200px !important;
+        height: 150px !important;
+        margin-top: 10px;
+    }
+
+    .article{
+        height: 269px;
+    }
+    .img-art {
+        width: 160px !important;
+        height: 200px !important;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .redes-sociales {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+}
+
+/* media 320px */
+@media (max-width: 320px){
+    .img-sect-main {
+        width: 200px !important;
+        height: 150px !important;
+        margin-top: 10px;
+    }
+
+    .article{
+        height: 242px;
+    }
+
+    .img-art {
+        width: 140px !important;
+        height: 150px !important;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+}
