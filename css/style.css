@@ -528,101 +528,30 @@ a {
         height: 500px;
         margin-top: 80px !important;
     }
+
     /* inicia media 992 perritos en adopción */
 
-.tarjeta{
-    margin-top: 10px;
-}
-.card {
-    position: relative;
-    width: 120px;
-    height: 160px;
-    border: none;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.card .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.card .front {
-    transform: perspective(300px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-}
-
-.card .front img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .front h3 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-size: 10px !important;
-    height: 10px;
-    line-height: 10px;
-    color: #fff;
-    background: rgba(0, 0, 0, .4);
-    text-align: center;
-}
-
-.card .back {
-    transform: perspective(300px) rotateY(180deg);
-    background: rgb(3, 35, 54);
-    font-size: 15px !important;
-    padding: 15px;
-    color: #f3f3f3;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
-}
-
-.card .back .link {
-    border-top: solid 1px #f3f3f3;
-    height: 50px;
-    line-height: 50px;
-    margin-top: 30px;
-}
-
-.card .back .link a {
-    font-size: 10px !important;
-    color: #f3f3f3 !important;
-}
-
-.card .back h3 {
-    font-size: 18px !important;
-    margin-top: 5px;
-    letter-spacing: 2px;
-}
-
-.card .back ul {
-    font-size: 10px !important;
-    text-align: justify;
-    letter-spacing: 1px;
-}
-.card .back ul li{
-    text-align: justify;
-    margin-left: 0;
-}
-.card:hover .front {
-    transform: perspective(300px) rotateY(180deg);
-}
-
-.card:hover .back {
-    transform: perspective(300px) rotateY(360deg);
-}
-
+    .tarjeta{
+        margin-top: 100px;
+    }
+    .card {
+        position: relative;
+        width: 180px;
+        height: 200px;
+        border: none;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    
+    
+    .card .back .link {
+      margin-top: 23px;
+    }
+    
+    .card .back .link a {
+        font-size: 19px !important;
+    }
+    
     /* inicia media 992 query donativos */
     .h2-main {
         margin-top: 10px;
@@ -765,6 +694,55 @@ a {
         width: 450px;
         height: 350px;
         margin-top: 90px;
+    }
+
+    /* inicia media 992 perritos en adopción */
+
+    .tarjeta{
+        margin-top: 10px;
+    }
+    .card {
+        width: 150px;
+        height: 170px;
+        border: none;
+      
+    }
+    .card .back .link {
+        height: 30px;
+        line-height: 30px;
+      margin-top: 5px;
+    }
+    
+    .card .back .link a {
+        font-size: 10px !important;
+    }
+
+    .card .front {
+        transform: perspective(100px) rotateY(0deg);
+        box-shadow: 0 5px 10px #000;
+    }
+    
+    .card .back {
+        transform: perspective(100px) rotateY(180deg);
+        background: rgb(3, 35, 54);
+        font-size: 5px !important;
+        padding: 15px;
+        color: #f3f3f3;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: 0 5px 10px #000;
+    }
+    .card .back ul li{
+        font-size: 13px !important;   
+    }
+    
+    .card:hover .front {
+        transform: perspective(100px) rotateY(180deg);
+    }
+    
+    .card:hover .back {
+        transform: perspective(100px) rotateY(360deg);
     }
 
     /* inicia media 768 query donativos */
@@ -1103,6 +1081,54 @@ a {
         margin-top: 50px !important;
         margin-left: 20px;
     }
+ /* inicia media 992 perritos en adopción */
+
+ .tarjeta{
+    margin-top: 10px;
+}
+.card {
+    width: 150px;
+    height: 170px;
+    border: none;
+margin-left: 10px;  
+}
+/* .card .back .link {
+    height: 30px;
+    line-height: 30px;
+  margin-top: 5px;
+}
+
+.card .back .link a {
+    font-size: 10px !important;
+}
+
+.card .front {
+    transform: perspective(100px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back {
+    transform: perspective(100px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    font-size: 5px !important;
+    padding: 15px;
+    color: #f3f3f3;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+.card .back ul li{
+    font-size: 13px !important;   
+}
+
+.card:hover .front {
+    transform: perspective(100px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(100px) rotateY(360deg);
+} */
 
     /* inicia media 360 query donativos */
 
@@ -1213,6 +1239,51 @@ a {
         margin-top: 50px !important;
         margin-left: 20px;
     }
+ /* inicia media 992 perritos en adopción */
+
+ .tarjeta{
+    margin-top: 10px;
+}
+.card {
+    width: 130px;
+    height: 170px;
+  
+}
+.card .back h3{
+    font-size: 15px !important;
+}
+.card .back .link a {
+    font-size: 11px !important;
+}
+
+.card .front {
+    transform: perspective(100px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back {
+    transform: perspective(100px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    font-size: 5px !important;
+    padding: 15px;
+    color: #f3f3f3;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+.card .back ul li{
+    font-size: 10px !important;   
+}
+
+.card:hover .front {
+    transform: perspective(100px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(100px) rotateY(360deg);
+}
+
 
     /* inicia pagína 320 Contacto */
 
