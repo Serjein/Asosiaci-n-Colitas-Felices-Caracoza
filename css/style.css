@@ -3,45 +3,45 @@ body {
     height: 98vh;
 }
 
-/* inicia header */
-#header {
-    height: 15vh;
-}
+    /* inicia header */
+    #header {
+        height: 15vh;
+    }
 
-#header {
-    background: linear-gradient(180deg, #007991, #63d1b0);
-}
+    #header {
+        background: linear-gradient(180deg, #007991, #63d1b0);
+    }
 
-#img-logo {
-    margin-top: 15px !important;
-    width: 70px !important;
-    height: 70px !important;
-}
+    #img-logo {
+        margin-top: 15px !important;
+        width: 70px !important;
+        height: 70px !important;
+    }
 
-#titulo {
-    font-size: 28px !important;
-    margin-top: 15px;
-    color: white !important;
-}
+    #titulo {
+        font-size: 28px !important;
+        margin-top: 15px;
+        color: white !important;
+    }
 
-.nav-item:hover {
-    background: rgba(228, 116, 239, 0.3);
-    box-shadow: 0 1px 20px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
-    border-radius: 7px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
+    .nav-item:hover {
+        background: rgba(228, 116, 239, 0.3);
+        box-shadow: 0 1px 20px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+        border-radius: 7px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
 
-#menu {
-    font-size: 15PX !important;
-    margin-top: 30px !important;
-    margin-left: 100px !important;
-}
+    #menu {
+        font-size: 15PX !important;
+        margin-top: 30px !important;
+        margin-left: 100px !important;
+    }
 
-a {
-    color: #4b044d !important;
-}
+    a {
+        color: #4b044d !important;
+    }
 
 /* inicia main */
 #main {
@@ -1092,43 +1092,6 @@ a {
     border: none;
 margin-left: 10px;  
 }
-/* .card .back .link {
-    height: 30px;
-    line-height: 30px;
-  margin-top: 5px;
-}
-
-.card .back .link a {
-    font-size: 10px !important;
-}
-
-.card .front {
-    transform: perspective(100px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-}
-
-.card .back {
-    transform: perspective(100px) rotateY(180deg);
-    background: rgb(3, 35, 54);
-    font-size: 5px !important;
-    padding: 15px;
-    color: #f3f3f3;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
-}
-.card .back ul li{
-    font-size: 13px !important;   
-}
-
-.card:hover .front {
-    transform: perspective(100px) rotateY(180deg);
-}
-
-.card:hover .back {
-    transform: perspective(100px) rotateY(360deg);
-} */
 
     /* inicia media 360 query donativos */
 
